@@ -5,9 +5,13 @@ Countries are shown as filter chips and when two are selected, national holidays
 In the action bar, you can change filter type from intersection to holidays present only in the first or second country.
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="https://github.com/stevan-milovanovic/HolidaysOverlApp/blob/master/holidays%20intersection.png" alt="Holidays Intersection" width="400"/>
-  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-  <img src="https://github.com/stevan-milovanovic/HolidaysOverlApp/blob/master/filters.png" alt="Filters" width="400"/>
+  <img src="https://github.com/stevan-milovanovic/HolidaysOverlApp/blob/master/initial.png" alt="Initial" width="200"/>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  <img src="https://github.com/stevan-milovanovic/HolidaysOverlApp/blob/master/no%20internet.png" alt="No internet" width="200"/>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  <img src="https://github.com/stevan-milovanovic/HolidaysOverlApp/blob/master/holidays%20intersection.png" alt="Holidays Intersection" width="200"/>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  <img src="https://github.com/stevan-milovanovic/HolidaysOverlApp/blob/master/filters.png" alt="Filters" width="200"/>
 </div>
 
 ### Libraries
