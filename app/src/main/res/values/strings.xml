@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HolidaysOverlApp</string>
+    <string name="only_a">Only A</string>
+    <string name="only_b">Only B</string>
+    <string name="intersection">Intersection</string>
+    <string name="internet_connection_issues_message">It seems that you have internet connection issues, please check your internet connection and swipe to refresh the data.</string>
+    <string name="refresh">Refresh</string>
+    <string name="empty_list_message">It looks like there are no holidays, please recheck selected countries</string>
+    <string name="generic_error_message">Something went wrong, please try to refresh the data</string>
+    <string name="special_state_icon">Special state icon</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/specialStateView"
+    tools:showIn="@layout/fragment_collection_list">
+
+    <View
+        android:id="@+id/specialStateBackgroundView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/specialStateMessageGuideline"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <ImageView
+        android:id="@+id/specialStateIconImageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="@dimen/margin_default"
+        android:contentDescription="@string/special_state_icon"
+        app:layout_constraintBottom_toTopOf="@id/specialStateMessageGuideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:src="@drawable/ic_baseline_wifi_off_24" />
+
+    <TextView
+        android:id="@+id/specialStateMessageTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_default"
+        android:layout_marginEnd="@dimen/margin_default"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/specialStateMessageGuideline"
+        tools:text="@string/internet_connection_issues_message" />
+
+    <Button
+        android:id="@+id/refreshButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_default"
+        android:text="@string/refresh"
+        app:layout_constraintEnd_toEndOf="@id/specialStateMessageTextView"
+        app:layout_constraintStart_toStartOf="@id/specialStateMessageTextView"
+        app:layout_constraintTop_toBottomOf="@id/specialStateMessageTextView" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/specialStateGroup"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:constraint_referenced_ids="specialStateBackgroundView, specialStateIconImageView, specialStateMessageTextView, refreshButton" />
+
+</merge>
